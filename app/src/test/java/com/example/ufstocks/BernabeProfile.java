@@ -1,4 +1,5 @@
-package com .example.ufstocks;
+package com .example.ufstock;
+
 import org.junit.Test;
 
 /**
