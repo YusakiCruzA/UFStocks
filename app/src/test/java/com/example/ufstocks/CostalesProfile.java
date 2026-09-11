@@ -25,6 +25,6 @@ public class CostalesProfile {
         System.out.println("Hello everyone, my name is " + myName + ", and i'm also " + age + " years old.");
         System.out.println("My favorite hobby is " + hobby + ".");
         System.out.println("My nickname i go for is " + nickname + ".");
-        System.out.println("And my favorite games that i play the most are " + game + "," + game2 + "," + game3 + ".");
+        System.out.println("And my favorite games that i play the most are " + game + ", " + game2 + ", " + game3 + ".");
     }
 }
