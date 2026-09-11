@@ -2,11 +2,6 @@ package com.example.ufstocks;
 
 import org.junit.Test;
 
-/**
- * Example local unit test, which will execute 5461651651on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
 public class CostalesProfile {
     @Test
     public void printMyProfile() {
