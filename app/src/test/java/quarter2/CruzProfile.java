@@ -1,19 +1,14 @@
-package com .example.ufstock;
+package quarter2;
 
 import org.junit.Test;
 
-/**
- * Example local unit test, which will execute 5461651651on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
-public class BernabeProfile {
+public class CruzProfile {
     @Test
-    public void BernabeProfile() {
+    public void CruzFunction() {
         // --- 1. THE INPUT (Storing your personal details in variables) ---
-        String myName = "Jazzlee bernabe";
-        String nickName = "Jajazz";
-        String favGame = "Mobile legends";
+        String myName = "Angelo Jariel A. Cruz";
+        String nickName = "Aj";
+        String favGame = "Minecraft";
         int myAge = 16;
 
         // --- 2. THE OUTPUT (Printing to the console) ---

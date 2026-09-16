@@ -1,4 +1,4 @@
-package com.example.ufstocks;
+package quarter2;
 
 import org.junit.Test;
 
