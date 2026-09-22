@@ -17,7 +17,7 @@ public class UFStocksMainMenu {
             if (choice == 1) {
                 System.out.println("Please enter your username and password.");
             } else if (choice == 2) {
-                System.out.print("Please enter create a username ands password");
+                System.out.print("Please enter create a username and password");
             }
 
 
