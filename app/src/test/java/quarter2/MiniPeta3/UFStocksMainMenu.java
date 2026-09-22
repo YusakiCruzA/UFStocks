@@ -15,7 +15,7 @@ public class UFStocksMainMenu {
     choice = input.nextInt();
 
     if (choice == 1){
-System.out.println("Please enter your username and password.")
+System.out.println("Please enter your username and password.");
 
 
 }
