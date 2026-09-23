@@ -2,7 +2,8 @@ package quarter2;
 
 import org.junit.Test;
 
-public class IsidroProfile {
+public class
+IsidroProfile {
 
     @Test
     public void IsidroFunction() {
