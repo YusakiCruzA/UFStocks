@@ -1,11 +1,11 @@
-package quarter2.practicalexam;|;
+package quarter2.practicalexam;
 
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
-public class LibraryKioskTest {
+public class Library {
     @Test
-    public void testLibraryFlow() {
+    public void testLibrary() {
         StringBuilder automatedInput = new StringBuilder();
         System.out.println("--- GENERATING LIBRARY TEST DATA ---");
 // Step 1: Borrow book option
@@ -21,7 +21,7 @@ public class LibraryKioskTest {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        LibraryMenu librarySystem = new LibraryMenu();
+        Library librarySystem = new Library();
         librarySystem.start(scanner);
     }
 }
