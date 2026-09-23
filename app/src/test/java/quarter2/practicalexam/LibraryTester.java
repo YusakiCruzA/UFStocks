@@ -3,9 +3,10 @@ package quarter2.practicalexam;
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
-public class Library {
+
+public class LibraryKioskTest {
     @Test
-    public void testLibrary() {
+    public void testLibraryFlow() {
         StringBuilder automatedInput = new StringBuilder();
         System.out.println("--- GENERATING LIBRARY TEST DATA ---");
 // Step 1: Borrow book option
