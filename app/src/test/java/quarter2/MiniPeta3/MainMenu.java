@@ -5,7 +5,6 @@ import java.io.ByteArrayInputStream;
 import java.util.Scanner;
 
 public class MainMenu {
-
     @Test
     public void testCompleteSystemFlow() {
         /*
@@ -45,7 +44,7 @@ public class MainMenu {
 
         /*
          * PART 2: Simulating Sub-Menus or Specific Features
-         * You don't always need a loop to test inputs. You can hardcode
+         * You don't always need a loop to test inputs. You can hardcode.
          * a specific path the user takes through your menus.
          */
         System.out.println("Generating inputs for specific features...");
@@ -83,10 +82,10 @@ public class MainMenu {
          * 4. RUNNING YOUR ACTUAL PROGRAM
          * TODO: Change "MainMenu" to the exact name of your main system class.
          */
-        MainMenu mainSystem = new MainMenu();
+        UniformPickUp mainSystem = new UniformPickUp();
 
         // Start your system and pass our automated scanner into it.
-        mainSystem.wait(scanner);
+        mainSystem.start(scanner);
     }
 }
 
