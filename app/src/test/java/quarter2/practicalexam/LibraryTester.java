@@ -4,7 +4,7 @@ import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
 
-public class LibraryKioskTest {
+public class LibraryTester {
     @Test
     public void testLibraryFlow() {
         StringBuilder automatedInput = new StringBuilder();
