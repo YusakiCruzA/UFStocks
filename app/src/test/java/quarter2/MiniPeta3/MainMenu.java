@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class MainMenu {
 
+    public void wait(Scanner scanner) {
+    }
+
     @Test
     public void testCompleteSystemFlow() {
         /*
@@ -89,4 +92,3 @@ public class MainMenu {
         mainSystem.wait(scanner);
     }
 }
-

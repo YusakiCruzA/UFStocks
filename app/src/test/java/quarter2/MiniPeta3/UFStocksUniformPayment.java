@@ -2,7 +2,7 @@ package quarter2.MiniPeta3;
 
 import java.util.Scanner;
 
-public class UFStocksUniformPayment {
+class UFStocksUniformPayment {
 
     public static void main(String[] args) {
 
@@ -27,7 +27,3 @@ public class UFStocksUniformPayment {
         input.close();
     }
 }
-
-
-
-
