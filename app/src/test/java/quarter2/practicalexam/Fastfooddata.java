@@ -12,19 +12,19 @@ public class Fastfooddata {
 
             if (choice == 1) {
                 price = 50;
-                System.out.println("Order selected: $75");
+                System.out.println("Order selected: $90");
             }
             else if (choice == 2) {
                 double payment = scanner.nextDouble();
                 if (payment < price) {
                     System.out.println("The payment is insufficient.");
                 } else {
-                    System.out.println("Payment success! Change: $" + (payment - price));
+                    System.out.println("Payment is sufficient! Change: $" + (payment - price));
                     price = 0;
                 }
             }
             else if (choice == 3) {
-                System.out.println("Exiting the Site.");
+                System.out.println("Exiting the Data!");
                 break;
             }
         }
