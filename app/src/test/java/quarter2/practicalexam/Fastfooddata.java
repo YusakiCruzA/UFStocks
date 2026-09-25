@@ -24,7 +24,7 @@ public class Fastfooddata {
                 }
             }
             else if (choice == 3) {
-                System.out.println("Exiting the Data!");
+                System.out.println("Exiting the Data");
                 break;
             }
         }
