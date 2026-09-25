@@ -13,10 +13,10 @@ public class Fastfood {
         automatedInput.append("1\n"); // Choose the order
 //  2: Testing insufficient Payments
         automatedInput.append("2\n"); // Choosing to pay the fines
-        automatedInput.append("45\n"); // Entering the payment, expecting it to be wrong
+        automatedInput.append("50\n"); // Entering the payment, expecting it to be wrong
 //  3: Testing sufficient Payments
         automatedInput.append("2\n"); // Choosing to pay the fines
-        automatedInput.append("90\n"); // Entering the payment, expecting it to be right
+        automatedInput.append("95\n"); // Entering the payment, expecting it to be right
 //  4: Exit system
         automatedInput.append("3\n"); // Exiting
         System.out.println("--- DATA FINISHED ---\n");

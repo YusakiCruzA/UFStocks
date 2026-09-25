@@ -12,7 +12,7 @@ public class Fastfooddata {
 
             if (choice == 1) {
                 price = 50;
-                System.out.println("Order selected: $90");
+                System.out.println("Order selected: $95");
             }
             else if (choice == 2) {
                 double payment = scanner.nextDouble();
