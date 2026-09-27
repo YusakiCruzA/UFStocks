@@ -3,9 +3,18 @@ package quarter2.MiniPeta3;
 import java.util.Scanner;
 
 public class UFStocksMainMenu {
+
+    // 1. Regular execution point if you run this class directly
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int choice;
+        Scanner scanner = new Scanner(System.in);
+        UFStocksMainMenu pickup = new UFStocksMainMenu();
+        pickup.start(scanner);
+        scanner.close();
+    }
+
+    // 2. The start method that your tester calls!
+    public void start(Scanner input) {
+        int choice; // Fixed: Declared the choice variable
 
         do {
             System.out.println("\n=================================");
@@ -24,6 +33,7 @@ public class UFStocksMainMenu {
             System.out.println("=================================");
             System.out.print("Enter choice: ");
 
+            // Fixed: Changed from scanner to 'input' to match the parameter name
             choice = input.nextInt();
 
             switch (choice) {
@@ -54,7 +64,8 @@ public class UFStocksMainMenu {
 
         } while (choice != 7);
 
-        input.close();
+        // Note: Do NOT close the scanner here, because closing it closes
+        // the underlying system stream, which will crash your sequential JUnit test.
     }
 
     // Sub-menu for the Account option shown in the UI
