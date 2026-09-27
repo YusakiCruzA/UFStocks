@@ -22,7 +22,7 @@ public class LibraryTester {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        Library librarySystem = new Library();
+        CruzLibrary librarySystem = new CruzLibrary();
         librarySystem.start(scanner);
     }
 }

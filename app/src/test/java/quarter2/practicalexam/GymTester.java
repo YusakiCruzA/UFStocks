@@ -1,8 +1,10 @@
-package com.example.sampleapplicationfordemo.quarter2.practicalexam;
+package quarter2.practicalexam;
+
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
-public class GymAccessTest {
+
+public class GymTester {
     @Test
     public void testGymFlow() {
         StringBuilder automatedInput = new StringBuilder();
@@ -20,7 +22,7 @@ public class GymAccessTest {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        Gym gymSystem = new Gym();
+        BernabeGym gymSystem = new BernabeGym();
         gymSystem.start(scanner);
     }
 }

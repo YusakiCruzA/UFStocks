@@ -2,7 +2,7 @@ package quarter2.practicalexam;
 
 import java.util.Scanner;
 
-    public class Library {
+    public class CruzLibrary {
         public void start(Scanner scanner) {
             int choice = -1;
 
