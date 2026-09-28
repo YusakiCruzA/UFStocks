@@ -30,7 +30,7 @@ import java.util.Scanner;
                     case 3:
                     case 0:
                         System.out.println("Exiting...");
-                        choice = 0; // Ensures loop terminates
+                        choice = 0;
                         break;
                     default:
                         System.out.println("Invalid choice.");
