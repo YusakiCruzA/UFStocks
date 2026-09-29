@@ -19,7 +19,7 @@ public class Fastfood {
         automatedInput.append("95\n"); // Entering the payment, expecting it to be right
 //  4: Exit system
         automatedInput.append("3\n"); // Exiting
-        System.out.println("--- DATA FINISHED ---\n");
+        System.out.println("--- DATA FINISHED! ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
         Fastfooddata FFSystem = new Fastfooddata();
