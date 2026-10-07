@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UFStocks</string>
+    <string name="todo">TODO</string>
+    <string name="pay_with_gcash">pay with gcash</string>
+    <string name="todoo">TODO</string>
+    <string name="oo">TODO</string>
+    <string name="pay_with_qr_code">Pay with qr code</string>
+    <string name="pay_with_paypal">Pay with paypal</string>
+    <string name="aa">TODO</string>
 </resources>

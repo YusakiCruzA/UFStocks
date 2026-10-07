@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000000"
+    android:contextClickable="true"
+    android:foregroundTint="#352B2B"
+    android:rotationX="2"
+    tools:context=".Payment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="76dp"
+        android:layout_height="158dp"
+        android:contentDescription="@string/todoo"
+        app:srcCompat="@drawable/gcash_and_the_nightshift_generation"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="194dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="#000000"
+        android:text="@string/pay_with_gcash"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="117dp"
+        android:contentDescription="@string/oo"
+        app:srcCompat="@drawable/screenshot_2026_10_07_143418"
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:text="@string/pay_with_qr_code"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="384dp"
+        android:layout_height="676dp"
+        android:contentDescription="@string/aa"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/_833345132_1108012198785706_4078635934748400462_n"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="-169dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="117dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/new_logo_paypal__paypal___fuseproject__la_"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="592dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:text="@string/pay_with_paypal"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="614dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
