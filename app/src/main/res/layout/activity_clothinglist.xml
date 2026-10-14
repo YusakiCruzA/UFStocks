@@ -13,9 +13,9 @@
         android:layout_height="761dp"
         android:contentDescription="TODO"
         app:srcCompat="@drawable/untitled_design"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:layout_editor_absoluteY="-13dp"
-        tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-6dp" />
 
     <TextView
         android:id="@+id/textView"
