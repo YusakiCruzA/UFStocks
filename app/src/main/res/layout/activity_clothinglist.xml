@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CLOTHINGLIST">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="433dp"
+        android:layout_height="761dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/untitled_design"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="-13dp"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Manila Cathedral School"
+        android:textColor="#13125C"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Clothing List"
+        android:textColor="#13125C"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="301dp"
+        android:layout_height="42dp"
+        android:scaleX="3"
+        android:scaleY="2.5"
+        app:srcCompat="@drawable/a"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="143dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/black_and_white_corporate_mb_initial_logo__1__removebg_preview__3_"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="573dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="136dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/_1611855024_1817"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="573dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="170dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#13125C"
+        android:fontFamily="@font/fredoka_one"
+        android:text="G. 4-6 Clothing"
+        android:textColor="#CB2027"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="170dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#13125C"
+        android:fontFamily="@font/fredoka_one"
+        android:text="G. 11-12 Clothing"
+        android:textColor="#CB2027"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="170dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#13125C"
+        android:fontFamily="@font/fredoka_one"
+        android:text="G. 7-10 Clothing"
+        android:textColor="#CB2027"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="170dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#13125C"
+        android:fontFamily="@font/fredoka_one"
+        android:text="G. Nursery-3 Clothing"
+        android:textColor="#CB2027"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
