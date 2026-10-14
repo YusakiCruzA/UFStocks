@@ -80,7 +80,7 @@
         android:background="#FFFFFF"
         android:text="Long Sleeves with full set"
         tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteY="73dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -89,7 +89,7 @@
         android:background="#FFFFFF"
         android:text="Long Pants"
         tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteY="450dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -98,6 +98,6 @@
         android:background="#FFFFFF"
         android:text="Polo With Blouse"
         tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="239dp" />
+        tools:layout_editor_absoluteY="234dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
