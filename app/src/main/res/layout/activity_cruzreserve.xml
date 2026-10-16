@@ -14,8 +14,8 @@
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="541dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="533dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -23,6 +23,7 @@
         android:layout_height="755dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/_7e987830_1973_45f1_957f_297512227061" />
@@ -42,8 +43,8 @@
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="175dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="167dp" />
 
     <Button
         android:id="@+id/button12"
@@ -52,8 +53,8 @@
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="340dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="333dp" />
 
     <Button
         android:id="@+id/button6"
@@ -97,7 +98,29 @@
         android:layout_height="44dp"
         android:background="#FFFFFF"
         android:text="Polo With Blouse"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="234dp" />
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="269dp"
+        android:layout_height="64dp"
+        android:background="#424441"
+        android:text="AVAILABLE: Yes"
+        android:textColor="#EBEBEB"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="290dp"
+        android:layout_height="46dp"
+        android:background="#D7D7D9"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Available for G-11 Students"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
