@@ -10,12 +10,18 @@
     <Button
         android:id="@+id/button11"
         android:layout_width="112dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="156dp"
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="533dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,98 +35,162 @@
         app:srcCompat="@drawable/_7e987830_1973_45f1_957f_297512227061" />
 
     <Button
-        android:layout_width="151dp"
-        android:layout_height="41dp"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="198dp"
         android:backgroundTint="#38B5FD"
         android:text="RESERVE"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="112dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="522dp"
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="167dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="112dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="356dp"
         android:backgroundTint="#FFFFFF"
         android:text="Add"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="151dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="398dp"
         android:backgroundTint="#38B5FD"
         android:text="RESERVE"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="151dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="564dp"
         android:backgroundTint="#38B5FD"
         android:text="RESERVE"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="126dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="159dp"
         android:layout_height="46dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="612dp"
         android:background="#FFFFFF"
         android:text="Long Sleeves with full set"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="140dp"
         android:layout_height="29dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="252dp"
         android:background="#FFFFFF"
         android:text="Long Pants"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="450dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="146dp"
         android:layout_height="44dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="455dp"
         android:background="#FFFFFF"
         android:text="Polo With Blouse"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="232dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="269dp"
         android:layout_height="64dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="15dp"
         android:background="#424441"
         android:text="AVAILABLE: Yes"
         android:textColor="#EBEBEB"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="652dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="290dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="669dp"
         android:background="#D7D7D9"
         android:ems="10"
         android:inputType="text"
         android:text="Available for G-11 Students"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
