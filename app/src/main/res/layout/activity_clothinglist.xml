@@ -14,7 +14,7 @@
         android:layout_height="761dp"
         android:contentDescription="TODO"
         app:srcCompat="@drawable/untitled_design"
-        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="-11dp"
         tools:layout_editor_absoluteY="-6dp" />
 
@@ -45,22 +45,11 @@
         tools:layout_editor_absoluteY="137dp" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="301dp"
-        android:layout_height="42dp"
-        android:scaleX="3"
-        android:scaleY="2.5"
-        app:srcCompat="@drawable/a"
-        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="35dp" />
-
-    <ImageView
         android:id="@+id/imageView10"
         android:layout_width="65dp"
         android:layout_height="80dp"
         app:srcCompat="@drawable/black_and_white_corporate_mb_initial_logo__1__removebg_preview__3_"
-        tools:ignore="ContentDescription,MissingConstraints"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="-3dp" />
 
