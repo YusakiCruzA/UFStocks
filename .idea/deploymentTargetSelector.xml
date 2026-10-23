@@ -22,7 +22,7 @@
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="CRUZRESERVE (4)">
+      <SelectionState runConfigName="CruzReserve">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
