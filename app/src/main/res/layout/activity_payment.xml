@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="439dp"
+        android:layout_height="819dp"
+        android:src="@drawable/untitled_design"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="-59dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="88dp"
+        android:layout_height="129dp"
+        android:src="@drawable/gcash_and_the_nightshift_generation"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="97dp"
+        android:layout_height="127dp"
+        android:src="@drawable/new_logo_paypal__paypal___fuseproject__la_"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="127dp"
+        android:layout_height="87dp"
+        android:src="@drawable/screenshot_2026_10_07_143418"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="161dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="328dp"
+        android:shadowColor="#DB1111"
+        android:text="pay with gcash"
+        android:textColor="#CC2121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="165dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="214dp"
+        android:shadowColor="#D01616"
+        android:text="pay using paypal"
+        android:textColor="#CE1111"
+        android:textColorHighlight="#D90F0F"
+        android:textColorHint="#D11616"
+        android:textColorLink="#DE1313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:shadowColor="#D12323"
+        android:text="scan with qr code"
+        android:textColor="#CC2020"
+        android:textColorHighlight="#B42121"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="228dp"
+        android:layout_height="200dp"
+        android:src="@drawable/black_and_white_corporate_mb_initial_logo__1__removebg_preview__3_"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="145dp"
+        android:layout_height="64dp"
+        android:text="WELCOME!"
+        android:textColor="#DE1818"
+        android:textColorHighlight="#C11818"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="216dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
