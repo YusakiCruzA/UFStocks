@@ -5,83 +5,71 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaymentActivity">
+    tools:context=".paymentactivity">
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/imageView3"
         android:layout_width="439dp"
         android:layout_height="819dp"
         android:src="@drawable/untitled_design"
-        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="-25dp"
-        tools:layout_editor_absoluteY="-59dp" />
+        tools:layout_editor_absoluteY="-59dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView5"
         android:layout_width="88dp"
         android:layout_height="129dp"
         android:src="@drawable/gcash_and_the_nightshift_generation"
-        tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="325dp" />
+        tools:layout_editor_absoluteY="325dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/imageView6"
         android:layout_width="97dp"
         android:layout_height="127dp"
         android:src="@drawable/new_logo_paypal__paypal___fuseproject__la_"
-        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="-9dp"
-        tools:layout_editor_absoluteY="429dp" />
+        tools:layout_editor_absoluteY="429dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/imageView7"
         android:layout_width="127dp"
         android:layout_height="87dp"
         android:src="@drawable/screenshot_2026_10_07_143418"
-        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="-24dp"
-        tools:layout_editor_absoluteY="556dp" />
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/button"
         android:layout_width="161dp"
         android:layout_height="44dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="359dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="328dp"
         android:shadowColor="#DB1111"
         android:text="pay with gcash"
         android:textColor="#CC2121"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck" />
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="359dp" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/button2"
         android:layout_width="165dp"
         android:layout_height="52dp"
-        android:layout_marginStart="89dp"
-        android:layout_marginTop="465dp"
-        android:layout_marginEnd="157dp"
-        android:layout_marginBottom="214dp"
         android:shadowColor="#D01616"
         android:text="pay using paypal"
         android:textColor="#CE1111"
         android:textColorHighlight="#D90F0F"
         android:textColorHint="#D11616"
         android:textColorLink="#DE1313"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TextSizeCheck" />
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,TextSizeCheck"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="465dp" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/button3"
         android:layout_width="163dp"
         android:layout_height="50dp"
         android:shadowColor="#D12323"
@@ -93,16 +81,16 @@
         tools:layout_editor_absoluteY="575dp" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/imageView13"
         android:layout_width="228dp"
         android:layout_height="200dp"
         android:src="@drawable/black_and_white_corporate_mb_initial_logo__1__removebg_preview__3_"
-        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="-24dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView14"
         android:layout_width="145dp"
         android:layout_height="64dp"
         android:text="WELCOME!"
